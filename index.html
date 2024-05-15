@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="./index2.html">Task 2</a></h1>
+    <h1>Find days between to Date</h1>
+
+    <script>
+        
+var now = new Date(prompt("Enter date to find day between your date to current day"))
+var d = now.getDay()
+
+var now1 = new Date()
+var dat = now - now1
+var REday = Math.floor(dat/(1000*60*60*24))
+document.write("<br> The ",REday ," days left in your enter date  (",now ,")")
+
+    </script>
+</body>
+</html>
